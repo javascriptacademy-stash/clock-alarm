@@ -7,23 +7,26 @@ body,html {
     box-sizing: border-box;
 }
 
-#clock {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 15vw;
-    background-image: linear-gradient(180deg, rgba(99,253,136,1) 0%, rgba(51,197,142,1) 50%, rgba(39,97,116,1) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-}
-
 .container {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15vw;
+    background-image: linear-gradient(180deg,
+        rgba(99,253,136,1) 0%,
+        rgba(51,197,142,1) 50%,
+        rgba(39,97,116,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 .controls {
